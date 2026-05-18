@@ -25,7 +25,7 @@ main {
 aside{
     width:20rem;
     margin: 1em;
-    border: 1px solid rgba(0 0 0/2);/* 1 */
+    border: 1px solid rgb(0 0 0/2);/* 1 */
     padding:1em;
     background-color: #eee;
     cor:black;
@@ -36,7 +36,7 @@ aside img{
     height: auto;
 }
 main img{
-    wigth:100px;
+    wigth:150px;
     heigt:auto;
 }
 footer{
