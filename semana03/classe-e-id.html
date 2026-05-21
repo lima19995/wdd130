@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilos/classe-e-id.css">
 </head>
 
-<body>
+<div>
     <h1>Compreendendo os Atributos de Classe e ID</h1>
     <p>Tanto <code>class</code> quanto <code>id</code> são atributos HTML usados para identificar e estilizar qualquer
         elemento, mas eles servem a propósitos diferentes. <code>class</code> define um grupo de elementos, enquanto
@@ -28,20 +28,12 @@
   background-color: #ddd; 
 }</code></pre>
     </div>
-
-    <div class="box highlight">
-        <p>Este div tem duas classes atribuídas: <strong>box</strong> e <strong>highlight</strong>. Portanto, o div terá
-            os estilos de ambas as classes aplicados.</p>
-        <pre><code class="html">&lt;div class="box highlight"&gt; ... &lt;/div&gt;</code></pre>
-        e o seletor CSS para highlight é
-        <pre><code class="css">.highlight {
-  background-color: #efefaa;
-  border-radius: 25px;
-  padding: 25px;
-}</code></pre>
-        <p>Algumas declarações (<code>background-color</code> e <code>padding</code>, de "box") são sobrescritas pelas
-            mesmas declarações em "highlight" porque "highlight" aparece após "box" na cascata CSS.</p>
+    <ul class="box"></ul>
+    <div id="note">
+        <p>Testando o ID note.</p>
     </div>
+
+
 
     <div id="note" class="box">
         <p>Este é um div com um ID exclusivo "note" e a mesma classe "box".</p>
@@ -69,6 +61,6 @@
 
     <br>
 
-</body>
+    </body>
 
 </html>
