@@ -69,3 +69,9 @@ code {
     font-size: smaller;
     padding: 0.5em;
 }
+.flex-coitainer {
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+    align-items: center;
+}

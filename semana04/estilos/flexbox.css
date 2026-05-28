@@ -6,7 +6,7 @@ body {
 .flex-container {
     border: 3px dashed darkcyan;
     background-color: lightyellow;
-    display: flex;
+    display: top;
     flex-wrap: wrap;
 }
 
