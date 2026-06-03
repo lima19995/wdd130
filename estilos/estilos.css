@@ -4,28 +4,32 @@
     box-sizing: border-box;
 }
 body {
+    gap: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    list-style: 1.5;
-    color:#222;
-    background-color: #fff;
-    margin:0;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 840px;
+    display: block;
 }
 nav {
-    background-color: darkblue;
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 nav a {
     color: white;
     padding: 10px;
      display: block;
+     font-size: 1.2em;
+     font-weight: 700;
+     color: #fff;
 }
 h1 {
     color: steelblue;
+    border-bottom: px #000;
 }
-
-main {
-    max-width: 840px;
-}
-
 aside{
     width:20rem;
     cor:black;
@@ -37,13 +41,13 @@ aside img{
     position: relative;
 }
 main img{
-    width: 170px;px;
-    height:auto;
-    border: 1px solid steelblue;
-    padding: 2px;
+    width: 180px;
+    height: auto;
+    border: 1.5px solid steelblue;
+    padding: 1px;
+    margin: 10px 10px;
     box-shadow: 0 0 30px gray;
     float: right;
-    
 }
 footer{
     margin-top:15px;
@@ -68,10 +72,12 @@ p{
 }
 /* Seletores de Classe */
 .caixa {
-    border: 1px solid rgb(0 0 0/2);
-    padding:1em;
-    margin: 1em;
-       background-color: #eee;
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-top);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
+    border: 1px solid rgba(0, 0, 0, 0.289);
 }
 aside {
     width: 20em;
@@ -82,4 +88,8 @@ aside h2 p{
     position: absolute;
     top:5px;
     left: 120px;
+}
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
 }
