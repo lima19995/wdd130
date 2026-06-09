@@ -1,5 +1,5 @@
 *{
-    magin: 0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -28,11 +28,11 @@ nav a {
 }
 h1 {
     color: steelblue;
-    border-bottom: px #000;
+    border-bottom: 1px (#000);
 }
 aside{
     width:20rem;
-    cor:black;
+    color:black;
     text-align: center;
 }
 aside img{
