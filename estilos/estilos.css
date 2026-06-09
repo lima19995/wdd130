@@ -21,7 +21,7 @@ nav {
 nav a {
     color: white;
     padding: 10px;
-    display: block;
+    display: block; 
     font-size: 1.2em;
     font-weight: 700;
 }
