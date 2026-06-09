@@ -21,24 +21,28 @@ nav {
 nav a {
     color: white;
     padding: 10px;
-     display: block;
-     font-size: 1.2em;
-     font-weight: 700;
-     color: #fff;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #fff;
 }
 h1 {
-    color: steelblue;
-    border-bottom: px #000;
+    border-bottom: 1px solid (#000);
+}
+main {
+    max-width: 960px;
+    margin: 0 auto;
 }
 aside{
-    width:20rem;
-    cor:black;
-    text-align: center;
+    width:300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #f0f0f0;
+    color:#333;
 }
 aside img{
     width: 200px;
-    height: auto;
-    position: relative;
 }
 main img{
     width: 180px;
