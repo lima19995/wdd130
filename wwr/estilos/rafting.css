@@ -42,7 +42,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.9;
-    backgroud-color: var(--cor-destaque2);
+    background-color: var(--cor-destaque2);
     color: #029af8;
 }
 hero img {
@@ -51,7 +51,7 @@ hero img {
     height: auto;
 }
 article {
-    position: ;
+    position:relative;
 }
 hero article img {
     float: right;
