@@ -20,7 +20,7 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
-h2, selection2 {
+h2, section {
     font-family: var(--fonte-titulo);
     color: var(--cor-primaria);
     text-align: center;
@@ -32,9 +32,13 @@ nav, p, section, article {
 .redes-sociais a {
     text-decoration: none;
 }
-hero {
+.hero {
     position:relative;
 }
+.hero h1, .hero article {
+    position: absolute;
+}
+
 h1 {
     position: absolute;
     top:20px;
@@ -45,7 +49,7 @@ h1 {
     background-color: var(--cor-destaque2);
     color: #029af8;
 }
-hero img {
+.hero img {
     display: block;
     width:100%;
     height: auto;
@@ -53,10 +57,13 @@ hero img {
 article {
     position:relative;
 }
-hero article img {
+.hero article img {
     float: right;
     width: 400px;
     border: #264653;
     margin: 10px;
     box-shadow: 0 0 30px #f4a261;
+}
+footer a, nav a {
+    text-decoration: none;
 }
