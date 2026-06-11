@@ -33,7 +33,7 @@ nav, p, section, article {
     text-decoration: none;
 }
 .hero {
-    position:relative;
+    position:absolute;
 }
 .hero h1, .hero article {
     position: absolute;
