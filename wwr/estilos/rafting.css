@@ -52,7 +52,6 @@ nav, p, section, article {
 }
 section {
     display: flex;
-    flex-direction: ; 
     gap: 20px;
     margin-bottom: 40px;
 }
