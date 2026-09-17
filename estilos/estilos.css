@@ -22,6 +22,36 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+main img {
+    width: 150px;
+    height: auto;
+}
+
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid white;
+    padding: 1rem;
+    background-color: rgb(65, 41, 41);
+    color: rgb(248, 250, 250);
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
