@@ -25,6 +25,9 @@ img {
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid black;
+    padding: 3px;
+    box-shadow: 0 0 20px #333;
 }
 
 p {
