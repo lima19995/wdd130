@@ -1,5 +1,13 @@
+:root {
+    --cor-de-fundo-do-titulo: #f06;
+    --cor-do-texto-do-titulo: #333;
+    --fonte-titulo: 'Montserrat', Helvetica, sans-serif;
+    --padding: 1rem;
+    --border: 1px solid rgb(0 0 0 / 0.1);
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--cor-do-texto-do-titulo);
     padding: 10px;
 }
 
@@ -11,7 +19,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--cor-de-fundo-do-titulo);
 }
 
 img {
@@ -25,9 +33,9 @@ img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--cor-de-fundo-do-titulo);
     padding: 3px;
-    box-shadow: 0 0 20px #333;
+    box-shadow: 0 0 20px var(--cor-de-fundo-do-titulo);
 }
 
 p {
@@ -55,6 +63,6 @@ aside img {
 
 footer {
     margin-top: 30px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--cor-do-texto-do-titulo);
     text-align: center;
 }
