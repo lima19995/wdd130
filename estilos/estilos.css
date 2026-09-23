@@ -1,9 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --cor-de-fundo-do-titulo: #f06;
     --cor-do-texto-do-titulo: #333;
     --fonte-titulo: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
-    --border: 1px solid rgb(0 0 0 / 0.1);
+    --border: 1px solid rgb(0 0 0 / 0.1) solid rgb(0 0 0 / 0.1);
 }
 
 nav {
@@ -23,9 +29,10 @@ h1 {
 }
 
 img {
+    float: right;
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid rgb(0 0 0 / 0.1) solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -33,9 +40,15 @@ img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid var(--cor-de-fundo-do-titulo);
+    border: 1px solid rgb(0 0 0 / 0.1) solid var(--cor-de-fundo-do-titulo);
     padding: 3px;
     box-shadow: 0 0 20px var(--cor-de-fundo-do-titulo);
+}
+
+ul {
+    width: 20rem;
+    text-align: center;
+    position: relative;
 }
 
 p {
@@ -48,12 +61,15 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid white;
-    padding: 1rem;
-    background-color: rgb(65, 41, 41);
-    color: rgb(248, 250, 250);
     text-align: center;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 15px;
+    left: 150px;
+
 }
 
 aside img {
@@ -63,6 +79,16 @@ aside img {
 
 footer {
     margin-top: 30px;
-    border-top: 1px solid var(--cor-do-texto-do-titulo);
+    border-top: 1px solid rgb(0 0 0 / 0.1) solid var(--cor-do-texto-do-titulo);
     text-align: center;
+}
+
+/* Seletores de classe */
+.caixa {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 1rem;
+    background-color: rgb(130, 105, 99);
+    color: #333;
+
 }
