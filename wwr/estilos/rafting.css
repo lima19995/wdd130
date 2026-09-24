@@ -15,7 +15,7 @@
 
 body {
     font-family: var(--font-body);
-    color: var(--cor-destaque1);
+    color: var(--cor-segundaria);
 }
 
 header,
@@ -75,5 +75,5 @@ h1 {
     width: 105px;
     border: 40px;
     margin: 10px;
-    box-shadow: var(--cor-destaque1);
+    box-shadow: var(--cor-primaria);
 }
