@@ -71,8 +71,8 @@ article {
 
 .hero article img {
     float: right;
-    width: 125px;
-    border: 25px;
-    margin: 15px;
-    box-shadow: red;
+    width: 105px;
+    border: 40px;
+    margin: 10px;
+    box-shadow: var(--cor-destaque1);
 }
