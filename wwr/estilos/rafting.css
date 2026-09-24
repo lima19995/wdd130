@@ -40,7 +40,7 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ h1 {
     color: blanchedalmond;
 }
 
-article {
+.hero article {
     position: absolute;
 
 }
