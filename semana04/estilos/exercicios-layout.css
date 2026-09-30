@@ -24,18 +24,25 @@ div {
 .flex {
     background-color: #aba;
     /* escreva declaracoes aqui */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .grid {
     background-color: #abb;
     /* escreva declaracoes aqui */
+    display: flex;
+    place-items: center;
 
 }
 
 .container2 {
     /* escreva declaracoes aqui */
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .dois {
@@ -45,12 +52,13 @@ div {
 
 .container3 {
     /* escreva declaracoes aqui */
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .colunas-3 {
     /* escreva declaracoes aqui */
-
+    grid-column: 1/4;
 }
 
 .tres {
