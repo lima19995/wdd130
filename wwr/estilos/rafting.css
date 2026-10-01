@@ -18,6 +18,16 @@ body {
     color: var(--cor-segundaria);
 }
 
+header {
+    display: grid;
+    margin: 5rem auto;
+    grid-template-columns: none;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 header,
 main,
 footer {
@@ -30,6 +40,12 @@ h2 {
     font-family: var(--font-titulo);
     color: var(--cor-destaque2);
     text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 nav,
@@ -76,4 +92,17 @@ h1 {
     border: 40px;
     margin: 10px;
     box-shadow: var(--cor-primaria);
+}
+
+figure {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100px;
+    height: auto;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
 }
