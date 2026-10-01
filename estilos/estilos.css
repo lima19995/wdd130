@@ -9,7 +9,7 @@
     --cor-do-texto-do-titulo: #333;
     --fonte-titulo: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
-    --border: 1px solid rgb(0 0 0 / 0.1) solid rgb(0 0 0 / 0.1);
+    --border: 1px solid rgb(0 0 0 / 0.1);
 }
 
 nav {
@@ -32,15 +32,15 @@ nav a {
 
 h1 {
     color: var(--cor-de-fundo-do-titulo);
-    border: bottom 0.5px;
-    ;
+    border-bottom: 0.5px;
+
 }
 
 img {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid rgb(0 0 0 / 0.1) solid black;
+    border: 1px solid rgb(0 0 0 / 0.1);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -48,7 +48,7 @@ img {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid rgb(0 0 0 / 0.1) solid var(--cor-de-fundo-do-titulo);
+    border: 1px solid rgb(0 0 0 / 0.1);
     padding: 3px;
     box-shadow: 0 0 20px var(--cor-de-fundo-do-titulo);
 }
@@ -59,7 +59,9 @@ ul {
     position: relative;
 }
 
-header footer .grid {
+header,
+footer,
+.grid {
     max-width: 840px;
     margin: 0 auto;
 }
@@ -71,6 +73,7 @@ header footer .grid {
 
 p {
     padding: 0px;
+    border-top: 10px;
 }
 
 main {
@@ -99,7 +102,7 @@ aside img {
 
 footer {
     margin-top: 30px;
-    border-top: 1px solid rgb(0 0 0 / 0.1) solid var(--cor-do-texto-do-titulo);
+    border-top: 1px solid rgb(0 0 0 / 0.1);
     text-align: center;
 }
 
