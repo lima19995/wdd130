@@ -95,6 +95,7 @@ h1 {
 }
 
 figure {
+    align-items: center;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
