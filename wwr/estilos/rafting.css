@@ -81,6 +81,11 @@ h1 {
     color: blanchedalmond;
 }
 
+h2 {
+    display: inline;
+
+}
+
 .hero article {
     position: absolute;
 
@@ -95,12 +100,19 @@ h1 {
 }
 
 figure {
-    align-items: center;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: center;
+    align-items: ;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+figure img {
     justify-content: space-between;
-    width: 100px;
+    width: 300px;
     height: auto;
+
 }
 
 footer img {
