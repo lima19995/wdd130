@@ -105,10 +105,10 @@ h2 {
 
 figure {
     display: flex;
-    flex-direction: centro;
-    align-items: ;
+    align-items: center;
     width: 100%;
     margin: 0 auto;
+    flex-direction: row;
 
 }
 
@@ -117,6 +117,7 @@ figure img {
     width: 300px;
     height: auto;
     align-items: first baseline;
+    flex-direction: row;
 
 }
 
