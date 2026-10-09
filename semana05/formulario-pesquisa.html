@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabela</title>
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
+</head>
+<header></header>
+<main>
+    <form>
+        <h1>WDD 130| Formulário HTML - Pesquisa de Usuário</h1>
+        <div class="item-formulario">
+            <label for="nomecompleto"> Nome Completo:</label>
+            <input type="text" id="nome-completo" name="nome-completo" required>
+            <label for="emailusuario"> E-mail:</label>
+            <input type="text" id="email-do-usuario" name="email-do-usuario" required>
+        </div>
+        <div class="item-formulario coluna2">
+            <label for="navegador"> Qual o seu navegador favorito?</label>
+        </div>
+        <div class="item-formulario coluna3">
+            <select name="navegador" id="navegador">
+                <option value="1">Chrome</option>
+                <option value="2">Safari</option>
+                <option value="3">Firefox</option>
+                <option value="4">Edge</option>
+            </select>
+        </div>
+        <label for="pet"> Qual seu Animal de estimação?</label>
+        <input type="checkbox" id="pet" name="pet">
+        <label for="feedback">Liste os lugares que voce já morou:</label>
+        <textarea name="feedback" id="feedback" rows="4"
+          placeholder="Fortaleza, Caucaia, Paracuru, "></textarea>
+        <button type="submit">Enviar Pesquisa</button>
+    </form>
+</main>
+<footer></footer>
+
+</html>

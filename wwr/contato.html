@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fale Conosco -Corredeira Cristalina </title>
+    <meta name="author" content=" Fernando Lima ">
+    <meta name="description"
+      content="Entre em contato com a equide do Corredeira Cristalina, Tire suas duvidas,faça reserva e mande sugestões.  ">
+    <link rel="stylesheet" href="estilos/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/z-raftingcompas.png" alt="Logo da empresa">
+        <nav>
+            <a href="index.html">Página Inicial </a>
+            <a href="sobre.html"> Sobre Nós </a>
+            <a href="passeios.html"> Passeios </a>
+            <a href="contato.html"> Fale Conosco </a>
+        </nav>
+
+    </header>
+    <main>
+        <!--CAbeçalho de informações-->
+        <section class="company-header">
+            <h2>Corredeira Cristalina </h2>
+            <p><strong>Endereço: </strong>R. José Roberto Sáles, 651 - Barra do Ceará</p>
+            <p><strong>Telefone: </strong>(85)3473-1668</p>
+            <p><strong>E-mail: </strong>corredeiracristalina@gmail.com</p>
+        </section>
+
+        <!--Mapa do Google Maps-->
+        <section class="contact-grid">
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.5012606117216!2d-38.5933104454706!3d-3.700168080593998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c735f75e75e537%3A0x2144fdeb10b26392!2sR.%20Jos%C3%A9%20Roberto%20S%C3%A1les%2C%20651%20-%20Barra%20do%20Cear%C3%A1%2C%20Fortaleza%20-%20CE%2C%2060332-810!5e0!3m2!1spt-BR!2sbr!4v1791548989593!5m2!1spt-BR!2sbr"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </div>
+
+            <!--Formulario de Contato-->
+            <form class="contato" action="#" method="post">
+                <div class="form-group">
+                    <label for="fullname">Nome Completo:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <fieldset>
+                    <legend>Proposito da Mensagem: </legend>
+
+                    <input type="radio" id="geral" name="purpose" value="Duvidas em Geral" checked>
+                    <label for="geral">Duvidas em Geral</label><br>
+
+                    <input type="radio" id="reserva" name="purpose"
+                      value="Perguntas sobre Reservas">
+                    <label for="reserva">Perguntas sobre Reservas</label><br>
+
+                    <input type="radio" id="sugestao" name="purpose" value="Sugestões">
+                    <label for="sugestao">Sugestão</label>
+                </fieldset>
+
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Quero receber a newsletter mensal</label>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar Mensagem</button>
+            </form>
+        </section>
+
+
+        <!--Seção de Equipe/Funcionarios-->
+        <section class="team-section">
+            <h2>Estamos Aqui para Servi-lo</h2>
+            <div class="team-grid">
+                <figure>
+                    <img src="imagens/instrutor-principal.jpg" alt="Foto de Francisco Lima">
+                    <figcaption><strong>Francisco Lima</strong>- Guia Principal</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/perfil.jpg" alt="Foto de Fernando Lima">
+                    <figcaption><strong>Fernando Lima</strong>- Coordenador de Aventura
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/IMG_9694.JPG" alt="Foto de Camila Lima">
+                    <figcaption><strong>Camila Lima</strong>- Atendimento ao Cliente
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy;|2026| Corredeira Cristalina - Fernando Lima </p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com"> <img src="imagens/facebook_220200.png"
+                  alt="icone do facebook"></a>
+            <a href="https://instagram.com">
+                <img src="imagens/social_15707749.png" alt="Icone do instagram">
+            </a>
+            <a href="https://linkedin.com"> <img src="imagens/linkedin_3536505.png"
+                  alt="Icone do linkedin"></a>
+        </nav>
+    </footer>
+</body>
+
+</html>

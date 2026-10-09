@@ -20,19 +20,23 @@ body {
 }
 
 header {
-    display: grid;
-    margin: 5rem auto;
-    grid-template-columns: none;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ccc;
-    font-size: 1.2rem;
-    font-weight: 700;
+    padding: 16px 0;
+    border-bottom: 1 solid #ccc;
+}
+
+header img {
+    width: 100px;
+    height: auto;
 }
 
 header,
 main,
 footer {
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
     margin: 0 auto;
 }
 
@@ -41,12 +45,20 @@ h2 {
     font-family: var(--font-titulo);
     color: var(--cor-destaque2);
     text-align: center;
+    margin-bottom: 16px;
 }
 
 nav {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
+    gap: 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor-segundaria);
+    font-weight: 700;
+    padding: 6px 12px;
+
 }
 
 nav,
@@ -57,12 +69,41 @@ article {
     padding: 8px;
 }
 
+.historia-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.historia-conteudo p {
+    flex: 1;
+    line-height: 1.5;
+}
+
+.historia-conteudo img {
+    width: 180px;
+    line-height: 1.5;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
 
 .hero {
     position: relative;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    background-color: var(--cor-destaque1);
+    color: blanchedalmond;
+    opacity: 0.8;
 }
 
 .hero img {
@@ -87,10 +128,6 @@ h2 {
 
 }
 
-.hero h1 {
-    position: absolute;
-}
-
 .hero article {
     position: absolute;
 
@@ -106,24 +143,147 @@ h2 {
 
 figure {
     display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-
+    gap: 12px;
 }
 
 figure img {
     display: block;
-    width: 300px;
-    height: auto;
-    align-items: first baseline;
-    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
 
+}
+
+figcaption {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    text-align: center;
 }
 
 footer img {
     width: 40px;
     height: auto;
+}
+
+/*Pagina fale conosco (contato.html)*/
+header {
+    background-color: #9e0a8d;
+}
+
+/*Seção de informações e mapa*/
+.company-header {
+    text-align: center;
+    margin: 20px auto 30px auto;
+
+}
+
+.company-header h1 {
+    margin-bottom: 8px;
+}
+
+/* Grid de 2 colunas: Mapa a esquerda e formulario a direita*/
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+    padding: 0 20px;
+    align-items: start;
+}
+
+/* Container do mapa*/
+.map-container {
+    width: 100%;
+    height: 420px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+}
+
+/*Estilização do formulario*/
+.contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contato .form-group {
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    border-radius: 6px;
+
+}
+
+.contato input[type="text"],
+.contato input[type="email"],
+.contato textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    color: #ccc;
+}
+
+.contato .submit-btn {
+    background-color: #003d80;
+
+}
+
+/*Seção da equipe-  fotos lado a lado*/
+.team-section {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.team-grid figure {
+    margin: 0;
+    text-align: center;
+    width: 180px;
+}
+
+.team-grid img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+/*roda pé redes sociais*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 40px;
+    background-color: #9e0a8d;
+    margin-top: 40px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
 }
