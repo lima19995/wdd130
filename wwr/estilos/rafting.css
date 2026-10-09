@@ -25,6 +25,7 @@ header {
     align-items: center;
     padding: 16px 0;
     border-bottom: 1 solid #ccc;
+    background-color: #faa2f0;
 }
 
 header img {
@@ -169,7 +170,7 @@ footer img {
 }
 
 /*Pagina fale conosco (contato.html)*/
-header {
+/*header {
     background-color: #faa2f0;
 }
 
