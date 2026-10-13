@@ -195,6 +195,45 @@ footer img {
     height: auto;
 }
 
+/*Passeios*/
+.detalhes-passeios .passeio-card {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 30px auto;
+    max-width: 840px;
+    background: #fdfdfd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.passeio-card img {
+    width: 250px;
+    height: 160´x;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.tabela-passeios table {
+    width: 100%;
+    max-width: 840px;
+    margin: 30px auto;
+}
+
+.tabela-passeios th,
+.tabela-passeios td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabela-passeios {
+    background-color: var(--cor-destaque1);
+    color: white;
+}
+
 /*ofertas*/
 .grid-ofertas {
     display: grid;
